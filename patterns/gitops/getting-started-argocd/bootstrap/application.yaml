@@ -13,7 +13,7 @@ spec:
       release: add-ons
       values: |
         karpenter:
-          enable: true
+          enable: false
         metrics-server:
           enable: true
   destination:
