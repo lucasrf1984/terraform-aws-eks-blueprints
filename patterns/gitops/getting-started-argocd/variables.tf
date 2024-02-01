@@ -19,6 +19,7 @@ variable "addons" {
   default = {
     enable_aws_load_balancer_controller = true
     enable_metrics_server               = true
+    enable_karpenter                    = true 
   }
 }
 # Addons Git
